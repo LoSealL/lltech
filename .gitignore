@@ -1,0 +1,25 @@
+# Temp work dir
+seafile-ignore.txt
+.vscode/
+.VSCodeCounter/
+.pytest_cache/
+__pycache__/
+
+# Install info.
+*.egg-info/
+
+# Intermediate output files
+[Bb]uild/
+_[Bb]uild/
+
+# Images
+.png
+.jpg
+.jpeg
+.bmp
+.yuv
+.rgb
+.nv12
+.pyc
+.y
+.yuv420p

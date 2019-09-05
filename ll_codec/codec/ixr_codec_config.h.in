@@ -1,0 +1,18 @@
+/********************************************************************
+Copyright 2018 Intel Corp. All Rights Reserved.
+Description : IXR Codec CMake config file
+Author      : Wenyi Tang
+Email       : wenyi.tang@intel.com
+Created     : Mar. 30th, 2018
+********************************************************************/
+#cmakedefine IXR_CODEC_BUILD_MSDK
+#cmakedefine IXR_CODEC_BUILD_NVENC
+
+#ifdef IXR_CODEC_BUILD_NVENC
+#  include "ll_codec/impl/nvenc/nv_framework.h"
+#endif
+#ifdef IXR_CODEC_BUILD_MSDK
+#  include "ll_codec/impl/msdk/encoder/mfx_framework_enc.h"
+#  include "ll_codec/impl/msdk/decoder/mfx_dec_base.h"
+#  include "ll_codec/impl/msdk/vpp/mfx_vpp_chain.h"
+#endif
