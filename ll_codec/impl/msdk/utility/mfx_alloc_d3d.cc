@@ -1,5 +1,5 @@
 /********************************************************************
-Copyright 2017-2018 Intel Corp. All Rights Reserved.
+Copyright 2017-2018 Tang, Wenyi. All Rights Reserved.
 Description
   Intel MediaSDK d3d memory allocator
 Author   :    Wenyi Tang

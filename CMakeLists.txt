@@ -1,4 +1,4 @@
-# Copyright (c) 2019 Intel Corporation
+# Copyright (c) 2019 Tang, Wenyi
 # Author: Wenyi Tang
 # E-mail: wenyi.tang@intel.com
 # Welcome to LoSealL's C++ middle-ware

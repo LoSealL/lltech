@@ -1,5 +1,5 @@
 /********************************************************************
-Copyright 2017-2018 Intel Corp. All Rights Reserved.
+Copyright 2017-2018 Tang, Wenyi. All Rights Reserved.
 Description
   Jpeg helper functions, copied from MediaSDK sample_decoder
 Author   :    Wenyi Tang

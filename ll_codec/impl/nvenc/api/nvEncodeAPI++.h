@@ -1,5 +1,5 @@
 /********************************************************************
-Copyright 2017 Intel Corp. All Rights Reserved.
+Copyright 2017 Tang, Wenyi. All Rights Reserved.
 Description : c++ class for nvEncoderAPI
 Author      : Wenyi Tang
 Email       : wenyi.tang@intel.com

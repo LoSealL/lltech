@@ -1,5 +1,5 @@
 /********************************************************************
-Copyright 2018 Intel Corp. All Rights Reserved.
+Copyright 2018 Tang, Wenyi. All Rights Reserved.
 Description : rotation (quaternion and vector4)
 Author      : Wenyi Tang
 Email       : wenyi.tang@intel.com

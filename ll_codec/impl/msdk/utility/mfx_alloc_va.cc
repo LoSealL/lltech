@@ -1,5 +1,5 @@
 /********************************************************************
-Copyright 2016-2018 Intel Corp. All Rights Reserved.
+Copyright 2016-2018 Tang, Wenyi. All Rights Reserved.
 Description
   Using MediaSDK in Android as the codec
 Author   :    Wenyi Tang

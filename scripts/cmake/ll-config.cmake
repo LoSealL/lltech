@@ -31,9 +31,18 @@ Cache variables
 
 The following cache variables may also be set:
 
-``LL_ROOT``
-  The root directory of the LL's package distribution (may also be
-  set as an environment variable)
+``LL_CODEC_INCLUDE_DIR``
+  The include directory of the LL's codec api
+``LL_GFX_INCLUDE_DIR``
+  The include directory of the LL's graphic api
+``LL_CODEC_LIBS``
+  The release library target of LL's codec
+``LL_GFX_LIBS``
+  The release library target of LL's graphic
+``LL_CODEC_LIBS_DEBUG``
+  The debug library target of LL's codec
+``LL_GFX_LIBS_DEBUG``
+  The debug library target of LL's graphic
 #]=======================================================================]
 
 find_path(LL_CODEC_INCLUDE_DIR ll_codec/codec/ixr_codec.h

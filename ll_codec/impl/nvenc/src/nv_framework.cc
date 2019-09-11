@@ -1,5 +1,5 @@
 /********************************************************************
-Copyright 2017-2018 Intel Corp. All Rights Reserved.
+Copyright 2017-2018 Tang, Wenyi. All Rights Reserved.
 Description : NV encoder framework
 Author      : Wenyi Tang
 Email       : wenyi.tang@intel.com

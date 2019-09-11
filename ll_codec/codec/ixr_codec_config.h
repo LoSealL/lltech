@@ -1,5 +1,5 @@
 /********************************************************************
-Copyright 2018 Intel Corp. All Rights Reserved.
+Copyright 2018 Tang, Wenyi. All Rights Reserved.
 Description : IXR Codec CMake config file
 Author      : Wenyi Tang
 Email       : wenyi.tang@intel.com

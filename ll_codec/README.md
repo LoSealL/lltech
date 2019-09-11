@@ -1,10 +1,13 @@
-# Media Codec for Intel X Reality
-
-## mfxVR
-Efficient C++ wrapper for Intel Media SDK, includes decoder, encoder and vpp
-
-## nvEnc
-Efficient C++ wrapper for NVENC, includes encoder
+# Hardware acceralted media library
 
 ## codec
-Abstract interface for mfxVR and nvEnc, encapulased into a same API. Can also export to a DLL.
+Abstract API class
+
+## impl/nvenc
+Implementation via NVIDIA's NVAPI
+
+## impl/msdk
+Implementation via Intel's MediaSDK
+
+## tests
+Unit tests
