@@ -26,7 +26,7 @@ if(IXR_CODEC_BUILD_NVENC)
   add_subdirectory(impl/nvenc)
 endif()
 add_subdirectory(codec)  # top class
-if(IXR_CODEC_BUILD_TESTS)
+if(IXR_CODEC_BUILD_TESTS AND LL_BUILD_TESTS)
   add_subdirectory(tests)
 endif()
 

@@ -115,7 +115,7 @@ macro(copy_engine_dependent_to target)
   endif()
 endmacro()
 
-if(IXR_ENGINE_BUILD_TESTS)
+if(IXR_ENGINE_BUILD_TESTS AND LL_BUILD_TESTS)
   add_subdirectory(tests)
 endif()
 

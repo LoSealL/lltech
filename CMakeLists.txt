@@ -29,6 +29,7 @@ set(CMAKE_DEBUG_POSTFIX "d")
 # By default we build nothing
 option(LL_BUILD_CODEC "Building codec library" OFF)
 option(LL_BUILD_GFX "Building graphic library" OFF)
+option(LL_BUILD_TESTS "Building all unit test" OFF)
 
 # OS-depedant setting
 if(MSVC)
@@ -36,6 +37,10 @@ if(MSVC)
   enable_unicode_charactor()
   set_msvc_warning_level(4)
   disable_minmax_macro()
+endif()
+
+if(LL_BUILD_TESTS)
+  include(gtest_helper)
 endif()
 
 if(LL_BUILD_CODEC)
