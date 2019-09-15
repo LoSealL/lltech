@@ -8,7 +8,7 @@ changelog
 ********************************************************************/
 #ifndef LL_CODEC_NVENC_NV_ERROR_H_
 #define LL_CODEC_NVENC_NV_ERROR_H_
-#include <exception>
+#include <stdexcept>
 #include <string>
 #include "ll_codec/impl/nvenc/api/nvEncodeAPI++.h"
 
